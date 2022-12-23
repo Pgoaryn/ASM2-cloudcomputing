@@ -1,7 +1,8 @@
-const {ObjectId} = require('bson')
+const {MongoClient,ObjectId} = require('mongodb')
 
-var MongoClient = require('mongodb').MongoClient
-var url = 'mongodb://0.0.0.0:27017'
+const DATABASE_URL = 'mongodb+srv://boconga123:ngduyanh123@cluster0.nruhbeq.mongodb.net/GCH1003'
+const DATABASE_NAME = 'GCH1003'
+
 
 async function viewAllChampions() {
     let client = await MongoClient.connect(url)
