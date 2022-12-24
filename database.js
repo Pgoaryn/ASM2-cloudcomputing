@@ -1,4 +1,3 @@
-const {ObjectId} = require('bson')
 
 var MongoClient = require('mongodb').MongoClient
 var url = 'mongodb+srv://boconga123:ngduyanh123@cluster0.nruhbeq.mongodb.net/?retryWrites=true&w=majority'

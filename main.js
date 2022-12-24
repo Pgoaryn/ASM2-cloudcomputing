@@ -1,4 +1,4 @@
-const {ObjectID} = require('bson')
+
 const {insertNewChampion, viewAllChampions, deleteChampion} = require('./database')
 var express = require('express')
 var app = express()
