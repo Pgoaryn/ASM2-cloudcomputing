@@ -25,7 +25,7 @@ app.post('/new',async (req,res)=>{
         pictureURL: picture
     }
     await insertNewChampion(newChampion)
-    res.render('home')
+    res.redirect('/view')
 })
 
 app.get('/new',(req,res)=>{
